@@ -24,6 +24,12 @@ A web-based Help Desk Ticket Management System built with **Flask** and **SQLite
 
 ##  Features
 
+###  Modular Codebase
+- Clean structure separating routes, templates, models, and config
+- Scalable design with room for features like email notifications or ticket statuses
+  
+---
+
 ###  All Users
 - Register and log in securely
 - Select role (User or Admin) from home screen
@@ -63,6 +69,17 @@ The system uses a relational database with the following tables:
 - **IDE:** Visual Studio Code
 
 ---
+
+###  Comments
+- Add remarks or updates to support tickets
+- Comment visibility based on ticket access
+
+---
+
+###  Validation & Feedback
+- Client-side and server-side validation for all forms
+- Flash messages for success, errors, and warnings
+
 
 ##  Installation
 
@@ -108,44 +125,3 @@ App uses flash messages for validation feedback
 
 The UI is minimal and responsive via Bootstrap CDN
 
-##  Features
-
-###  Authentication & Access Control
-- Role-based login for Admin and Regular users
-- Secure password storage using hashing (Werkzeug)
-- User registration with form validation
-
-###  Ticket Management
-- Create, view, and update support tickets
-- Admin can view, edit, and delete all tickets
-- Regular users can manage only their own tickets
-
-###  Comments
-- Add remarks or updates to support tickets
-- Comment visibility based on ticket access
-
-###  Validation & Feedback
-- Client-side and server-side validation for all forms
-- Flash messages for success, errors, and warnings
-
-###  Admin Dashboard
-- View all submitted tickets
-- Filter tickets by category
-- Delete tickets or manage all user submissions
-
-###  User Dashboard
-- Submit and manage personal support tickets
-- View ticket status and comments
-- Update ticket details
-
-###  Database Design
-- Four related tables: `users`, `tickets`, `categories`, `comments`
-- Primary/foreign key relationships modelled using SQLAlchemy ORM
-
-###  Deployment
-- Fully deployed on Heroku
-- Local setup support with clear instructions and requirements
-
-###  Modular Codebase
-- Clean structure separating routes, templates, models, and config
-- Scalable design with room for features like email notifications or ticket statuses
