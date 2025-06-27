@@ -13,11 +13,11 @@ A web-based Help Desk Ticket Management System built with **Flask** and **SQLite
 ##  Demo Login Credentials
 
 ###  Admin
-- **Email:** qaadmin@fujitsu.com  
+- **Email:** qaadmin
 - **Password:** `Fujitsu123@`
 
 ###  Regular User
-- **Email:** qauser@fujitsu.com  
+- **Email:** qauser 
 - **Password:** `Fujitsu123@`
 
 ---
